@@ -1,0 +1,35 @@
+DROP TABLE IF EXISTS reisen;
+CREATE TABLE reisen
+(
+  	id          SERIAL    	NOT NULL,
+	land			VARCHAR(32)  NOT NULL,
+	region		VARCHAR(32)  NOT NULL,
+	hotel			VARCHAR(32)  NOT NULL,
+	verpflegung	VARCHAR(2)  NOT NULL,
+	kosten		INTEGER,
+   PRIMARY KEY ( id )
+);
+
+INSERT INTO reisen (id,land,region,hotel,verpflegung,kosten)
+VALUES (1,"Mallorca","Mallorca","Tropicana","AI","730");
+
+INSERT INTO reisen (id,land,region,hotel,verpflegung,kosten)
+VALUES (2,"Mallorca","Mallorca","Mediterraneo","HP","560");
+
+INSERT INTO reisen (id,land,region,hotel,verpflegung,kosten)
+VALUES (3,"Mallorca","Mallorca","Vista Badia","NF","500");
+
+INSERT INTO reisen (id,land,region,hotel,verpflegung,kosten)
+VALUES (4,"Mallorca","Mallorca","Palma Mazas","N","220");
+
+INSERT INTO reisen (id,land,region,hotel,verpflegung,kosten)
+VALUES (5,"Griechenland","Kreta","Ikaros Beach","VP","495");
+
+INSERT INTO reisen (id,land,region,hotel,verpflegung,kosten)
+VALUES (6,"Griechenland","Kreta","Knossos Beach","AI","620");
+
+INSERT INTO reisen (id,land,region,hotel,verpflegung,kosten)
+VALUES (7,"Griechenland","Santorin","Alexandra Hotel","HP","550");
+
+INSERT INTO reisen (id,land,region,hotel,verpflegung,kosten)
+VALUES (8,"Griechenland","Santorin","Orion Star","VP","380");

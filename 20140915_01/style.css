@@ -1,0 +1,13 @@
+body{
+	color: #000000;
+	background: #ffffB8;
+}
+
+th {
+	font-style: bold;
+	font-size: 14px;
+}
+
+td{
+	font-size: 12px;
+}

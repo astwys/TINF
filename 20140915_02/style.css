@@ -1,0 +1,36 @@
+body{
+	color: #717176; /*grey*/
+}
+
+h1{
+	color: #ff2844; /*red*/
+}
+
+h2{
+	color: #000000;
+}
+
+p{
+	color: #2f6d2a;
+	font-size: 25pt;
+	font-family: cursive;
+	font-weight: bold;
+	/*font-family: script;*/
+}
+
+.img1{
+	border-color: #604223; /*brown*/
+	border-width: 6pt;
+	border-style: dotted;
+}
+
+.img2{
+	border-width: 3pt;
+	border-color: #cb46c6; /*violett*/
+	padding: 15pt;
+	border-style: solid;
+}
+
+.normal{
+
+}

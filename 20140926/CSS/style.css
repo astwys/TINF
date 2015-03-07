@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	font: 100% Arial, Helvetica, sans-serif;
+}
+
+#header {
+	background: url(../pics/saeulen.jpg) no-repeat left top;
+	height: 150px;
+}
+
+#header p {
+	font-size: 20px;
+	text-align: right;
+	color: white;
+	padding: .4px .4px 0 0;
+}
+
+#navigation {
+	background-color: #ceb98e;
+	padding-left: 1px;
+}
+
+#shadow {
+	background: url(../pics/schatten.png) repeat-x;
+	height: 12px;
+}
+
+#content {
+	padding: 2px;
+}
+
+#content h1, h2, h3, p, ul {
+	padding-bottom: 7px;
+}

@@ -1,0 +1,162 @@
+* {
+	margin: 0px;
+	padding: 0px
+}
+
+body {
+     width: 980px;
+     margin: 0 auto;
+     font-size: 12px;
+     color: #999;
+     font-family: Helvetica;
+     background: #272525 url(../images/templatemo_top_bg.jpg) repeat-x;
+}
+
+.header {
+	height: 250px;
+	width: 980px;
+	background: url(../images/templatemo_banner_bg.jpg);
+}
+
+.menu{
+	height: 65px;
+	width: 980px;
+	background: url(../images/templatemo_menu_bg.jpg);
+}
+
+.menu a{
+	color: #999;
+	list-style-type: none;
+	float: left;
+	padding-top: 23px;
+	padding-left: 25px;
+	text-decoration: none;
+}
+
+.menu li{
+	list-style-type: none;
+	padding-left: 300px;
+}
+
+.sidebar-left {
+	float: left;
+	width: 15%;
+	height: 600px;
+	background: #1b1919;
+	border: 1px solid #363434;
+	padding: 40px;
+	padding-left: 20px;
+	padding-right: 60px;
+}
+
+.sidebar-left a{
+	color: #999;
+	text-decoration: none;
+	
+}
+
+.sidebar-left li{
+	list-style-type: none;
+}
+
+.sidebar-left ul{
+	padding: 10px;
+	height: 20px;
+	width: 150px;
+	background: #535353;
+	border-left: 10px solid black;
+	margin-bottom: 10px;
+}
+
+h3{
+	font-size: 16px;
+	color: white;
+}
+
+.blank{
+	background-color: white;
+	width: 180px;
+	height: 25px;
+}
+
+.border{
+	background: url(../images/templatemo_horizontal_divider.jpg)repeat-x;
+	height: 10px;
+	width: 180px;
+	margin: 0px auto;
+}
+
+.border-content{
+	background: url(../images/templatemo_horizontal_divider.jpg)repeat-x;
+	height: 10px;
+	width: 450px;
+	margin: 0px auto;
+}
+
+.content {
+	padding: 40px;
+	margin-left: 25%; /* space for sidebar left*/
+	margin-right: 25%; /* space for sidebar right*/
+	height: 600px;
+	background: #1b1919;
+	border: 1px solid #363434;
+	/* text format*/
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.content h1{
+	color: white;
+}
+
+.text{
+	padding-left: 160px;
+	font-size: 12px;
+}
+
+.content img{
+	float: left;
+	padding-right: 20px;
+}
+
+.sidebar-right {
+	padding: 40px;
+	float: right;
+	width: 15%;
+	height: 600px;
+	background: #1b1919;
+	border: 1px solid #363434;
+}
+
+.sidebar-right p{
+	font-size: 14px;
+}
+
+.sidebar-right h4{
+	color: white;
+}
+
+.video-img{
+	background: url(../images/templatemo_image_03.jpg);
+	height: 80px;
+	width: 160px;
+}
+
+.play{
+	background: url(../images/templatemo_play_icon.jpg);
+	height: 20px;
+	width: 20px;
+	float: right;
+}
+
+.flt-clear {
+	clear: both;
+}
+
+.footer {
+	padding: 20px;
+	height:10px;
+	background: #1b1919;
+	border: 1px solid #363434;
+	background: url(../images/templatemo_footer.jpg);
+}

@@ -1,0 +1,28 @@
+body{
+	color:#7f7065;
+}
+
+h1{
+	color:#ff1e17;
+}
+
+h2{
+	color:black;
+}
+
+.img1 {
+	border-color: #543623;
+	border-width: 6pt;
+	border-style: dotted;
+}
+
+.img2 {
+	border-width:3pt;
+	border-color: #cb46c6;
+	padding:15pt;
+	border-style: solid;
+}
+
+.normal{
+
+}

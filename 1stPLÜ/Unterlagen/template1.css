@@ -1,0 +1,50 @@
+* {
+	margin: 0px;
+	padding: 0;
+}
+
+body {
+	background: white;
+	font-family: Helvetica;
+	margin-top: 60px;
+	margin-bottom: 60px;
+  }
+
+#all {
+	width: 700px;
+	background-color: white; 
+	margin: 0px auto; 
+	padding: 10px;
+}
+
+
+#header {
+	background: black;
+	color: #fff;
+	padding: 20px; 
+	font-size: 18px;
+	height:50px;
+}
+
+.box {
+	padding: 15px;
+	border: 2px solid blue;
+	background:black;
+}
+
+.content{
+	margin-left: 200px; /* space for menu, sidebar */
+	height: 600px;
+}
+.menuev {
+	float: left;
+	width: 180px;
+	height: 600px;
+}
+
+.footer {
+	height:10px;
+}
+.flt-clear {
+	clear: both;
+}

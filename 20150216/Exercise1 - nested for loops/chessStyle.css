@@ -1,0 +1,28 @@
+body{ 
+    font-family: Arial; 
+    background-color: #8a8; 
+}
+
+.wrapper {
+    clear: both;
+}
+
+/*generic box*/
+.boxA, .boxB {
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    position: relative;
+    float: left;
+}
+
+/*red box*/
+.boxA {
+    background-color: #f00;
+    
+}
+
+/*white box*/
+.boxB {
+    background-color: #fff;
+}

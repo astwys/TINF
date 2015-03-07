@@ -1,0 +1,20 @@
+﻿template1
+Basis Vorlage zum Ausfüllen und Abändern, Struktur fix vorgegeben
+
+template2
+Body Bereich mit allgemeinen Seiteninformationen (Breite, Schriftarten, Hintergrundbild, ...)
+Header fix lt. Angabe und vertikales Menü umgesetzt
+
+template3
+Container "wrapper" für Hintergrund des Menüs vertikal auf gesamte Spaltenlänge und Feinabstimmungen realisiert
+Menü vertikal implementiert
+
+template4
+Inhaltsbereich ausprogrammiert
+
+template5
+Footer gestaltet
+
+--------------------------------------------------------------------------------------------------------
+OPTIMIERUNGSPOTENTIAL: 
+-)color Anweisungen in RGB hex Notation (Darstellung auf verschiedenen System unter Umständen nicht gleich)

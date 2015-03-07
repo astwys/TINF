@@ -1,0 +1,58 @@
+/* CSS Datei - Default Page
+
+     * universal selector
+
+	 . (class) 	class selector
+
+	 # (ID)			id selector (unique id within the document, mapped only once)
+
+
+
+//***************************************************************************/
+
+h1 { /*style of h1*/
+    margin:0; /*defines the margin*/
+    font-size:1.9em; /*defines font size*/
+}
+
+h2 { /*style of h2*/
+    margin:0;
+    margin-top:3px;
+    font-size:1.2em;
+}
+
+header,nav,section,aside,footer,article { /*style of the header, nav,…*/
+    display:block;  /*defines the type of box used in the html file*/
+}
+
+ul,div,td,th { /*style of ul,…*/
+    border:1px solid black; /*defines the border*/
+    background-color:gold; /*defines the background-color */
+    margin-top:20px;
+}
+
+div {
+    padding:0 10px; /*defines the padding*/
+}
+
+table {
+    border-collapse:collapse; /*defines of borders are collapsed*/
+    margin:5px 0;
+}
+
+td,th {
+    background-color:white;
+    width:20%; /*defines the width*/
+    text-align:center; /*defines the text allignement*/
+    padding:2px;
+}
+
+ul {
+    margin-left:0;
+    padding:0 40px;
+}
+
+p,li {
+    margin:0;
+    padding:2px 0;
+}

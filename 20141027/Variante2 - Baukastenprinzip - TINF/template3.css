@@ -1,0 +1,133 @@
+* {
+	margin: 0px;
+	padding: 0;
+}
+
+body {
+	background: url(images/bg1.jpg) repeat;
+	font-family: Helvetica;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#all {
+	width: 700px; 				/* Breiet der Seite lt. Angabe */
+	background-color: white; 
+	margin: 0px auto; 
+	padding: 10px;
+}
+
+#header {
+	background: url(images/topbg.gif) repeat-x;
+	color: #fff;
+	padding: 20px; 
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+
+#ueb1 {
+	font-size: 30px;
+	font-style: bold;
+}
+#ueb2 {
+	font-size: 10px;
+	color: #667;
+}
+
+.headerpic {
+	height: 50px; 	 
+	background: url(images/hdrpic.jpg) no-repeat top left;
+	margin-bottom:2px;
+}
+
+/* horizontales menue */
+#menueh {
+	width: 100%;
+	height: 40px;
+	background-color: #333; /* grau */
+}
+
+#menueh li{
+	list-style-type: none; /* keine Punkte */
+	float: left; 
+	margin: 0px; /* Einrückung der Liste entf.*/
+	padding: 10px;
+}
+
+#menueh a{
+	text-decoration: none; 	/* Unterstr. aufh*/
+	color: #d8d8d8;		/* Menü Schriftfarbe*/	
+	font-size: 12px;
+}
+
+/* Rollover Effekt */
+#menueh li:hover {
+	background: url(images/menubg.gif);
+}
+
+/* wrapper trick http://blog.selfhtml.org//files/2006-01-spaltenlayout-beispiel4.html */
+/* wrapper kriegt grün, für menue bereich bleibt das, weil dieser transparetn bleibt. 
+Content Hintergrund wird auf weiß gesetzt */
+.wrapper {
+	margin-top: 2px;
+	background: url(images/menubg.gif) repeat;
+}
+
+/* ----------------------------*/
+/* Rollover vertikales Menue   */
+/* ----------------------------*/
+#menuev {
+	padding-top: 40px;
+	width: 200px;	/* breite des menuev lt. Angabe */
+	float: left;	/* menüchange adapt here */	
+	background: url(images/menubg.gif) repeat; 
+}
+
+#menuev ul {
+	margin:0px;   /* Die Einrückung der Liste entfernen. */ 
+	padding:0px;
+}
+
+#menuev li {
+	list-style-type: none;
+    border: none;
+    width: 190px;
+	padding: 10px;
+    text-align: left;
+}
+
+#menuev li a {
+	color: #FFFFFF;
+	font-size: 12px;
+    text-decoration: none; /* Unterstreichung aufheben */
+	display: block;   /* vertikale darstellung als block nach unten */
+					  /* nicht notwendig,wenn div container die block ohnehin vorgeben */	
+}
+
+#menuev li:hover {
+	Background-color:#090;   /* Beim darüberfahren GRÜN färben. */
+	background: url(images/menuactive.gif);
+}
+
+.box {
+	padding: 15px;
+	border: 2px solid blue;
+	background:black;
+}
+
+.content{
+	margin-left: 210px; /* space for menu, sidebar */
+	height: 600px;
+}
+.menuev {
+	float: left;
+	width: 180px;
+	height: 600px;
+}
+
+.footer {
+	height:10px;
+}
+.flt-clear {
+	clear: both;
+}

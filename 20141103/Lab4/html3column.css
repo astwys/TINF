@@ -1,0 +1,50 @@
+* {
+	margin: 0px;
+	padding: 0px
+}
+
+body {
+     width: 980px;
+     margin: 0 auto;
+     color: white;
+     font-size:20px;
+      font-family: Helvetica;
+}    
+.box {
+	padding: 40px;
+	border: 5px solid grey;
+	background:black;
+}
+.wrapper {
+	width: 980px;
+	border: 5px dashed red; 
+}
+
+.header {
+	border: 5px solid grey;
+	background:black;
+}
+.sidebar-left {
+	float: left;
+	width: 15%;
+	height: 600px;
+}
+
+.content {
+	margin-left: 25%; /* space for sidebar left*/
+	margin-right: 25%; /* space for sidebar right*/
+	height: 600px;
+}
+.sidebar-right {
+	float: right;
+	width: 15%;
+	height: 600px;
+}
+
+.flt-clear {
+	clear: both;
+}
+
+.footer {
+	height:10px;
+}

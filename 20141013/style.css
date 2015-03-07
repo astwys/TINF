@@ -1,0 +1,30 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	color: white;
+	font-size: 16px;
+	font-family: Helvetica;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.article {
+	padding: 20px;
+	background: black;
+}
+
+.box {
+	width: 120px; height: 60px;
+	margin: 20px;
+	padding: 20px;
+	border: 20px solid grey;
+	background: white;
+}
+
+
+.flt-left { float: left; }
+.flt-right { float: right; }
+.flt-clear { clear: both; }

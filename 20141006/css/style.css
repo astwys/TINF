@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	font: 100% Arial, Helvetica, sans-serif;
+}
+
+#header {
+	background: url(../pics/saeulen.jpg) no-repeat left top;
+	height: 150px;
+}
+
+#header p {
+	font-size: 20px;
+	text-align: right;
+	color: white;
+	padding: .4px .4px 0 0;
+}
+
+#navigation {
+	background-color: #ceb98e;
+	padding-left: 1px;
+}
+
+#shadow {
+	background: url(../pics/schatten.png) repeat-x;
+	height: 12px;
+}
+
+#content {
+	padding: 2px;
+}
+
+#content h1, h2, h3, p, ul {
+	padding-bottom: 7px;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: separate;
+	border-spacing: 1px 0.5px;
+	background-color: #ddd;
+}
+
+thead, caption {
+	font-weight: bold;
+}
+
+.box-1{
+	width: 300px; height: 300px;
+	background:black;
+	color: #ff3300;
+	margin: 0px auto;
+}
+
+.box-2 { /*class tag selector*/
+	width: 200px; height: 200px;
+	padding: 25px;
+	border: 25px solid grey;
+	background: black;
+	margin: 0 auto; /*center box*/
+}
+
+#wrapper { /*id tag selector*/
+	background: green;
+	margin-top: 40px;
+	border: 5px dashed;
+	width: 50%;
+	height: 0px auto;
+}

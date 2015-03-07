@@ -1,0 +1,151 @@
+  * {
+	margin: 0px;
+	padding: 0;
+}
+
+body {
+	background: url(../pics/bg1.jpg) repeat;
+	font-family: Helvetica;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#all {
+	width: 700px;
+	background-color: white;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+#header {
+	background: url(../pics/topbg.gif) repeat-x;
+	color: #fff;
+	padding: 20px;
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+
+#ueb1 {
+	font-size: 30px;
+	font-style: bold;
+}
+#ueb2 {
+	font-size: 10px;
+	color: #667;
+}
+
+.headerpic {
+	height: 50px;
+	background: url(../pics/hdrpic.jpg) no-repeat top left;
+	margin-bottom:2px;
+}
+
+
+#menueh {
+	width: 100%;
+	height: 40px;
+	background-color: #333; /*grey*/
+}
+
+#menueh li{
+	list-style-type: none;
+	float: left;
+	margin: 0px;
+	padding: 10px;
+}
+
+#menueh a{
+	text-decoration: none;
+	color: #d8d8d8;		/* Menü Schriftfarbe*/
+	font-size: 12px;
+}
+
+#menueh li:hover {
+	background: url(../pics/menubg.gif);
+}
+
+.wrapper {
+	margin-top: 2px;
+	background: url(../pics/menubg.gif) repeat;
+}
+
+
+#menuev {
+	padding-top: 40px;
+	width: 200px;
+	float: left;
+	background: url(../pics/menubg.gif) repeat;
+}
+
+#menuev ul {
+	margin:0px;
+	padding:0px;
+}
+
+#menuev li {
+	list-style-type: none;
+    border: none;
+    width: 190px;
+	padding: 10px;
+    text-align: left;
+}
+
+#menuev a {
+	color: #FFFFFF;
+	font-size: 12px;
+    	text-decoration: none;
+	display: block;
+}
+
+#menuev li:hover {
+	background-color:#090;
+	background: url(../pics/menuactive.gif);
+}
+
+img.left {
+	float: left;
+	height:50px;
+	width: 50px;
+	margin: 0px 15px 0px 0px;
+}
+
+.content {
+	margin-left: 210px;
+	background-color: white;
+	padding-left: 5px;
+}
+
+.article {
+	font-size: 14px;
+	margin-left: 10px;
+	padding: 20px;
+}
+
+.ueb3 {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.trennbalken {
+	background: url(../pics/border1.gif) repeat-x;
+	height: 15px;
+}
+
+.box {
+	padding: 15px;
+	border: 2px solid blue;
+	background:black;
+}
+
+.flt-clear {
+	clear: both;
+}
+
+.footer {
+	height:10px;
+	background: url(../pics/border1.gif) repeat-x;
+	font-size: 10px;
+	text-align: center;
+	padding: 10px;
+	background-color: white;
+}
