@@ -1,68 +1,59 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>task2</title>
-</head>
-<body>
-	<form action="" method="post">
-		<p>
-			<span>Name: </span>
-			<input type="text" name="name"></input>
-		</p>
+<?php
+ $array=array(1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1);
 
-		<p>
-			<span name="gender">Gender: </span>
-			<input type="radio" name="gender" value="m">m</input>
-			<input type="radio" name="gender" value="f">f</input>
-		</p>
+ $temp=0;
+ $number = $_POST['number'];
+ $arrlength = count($array);
 
-		<p>
-			<span>decimal number(base 10): </span>
-			<input type="number" name="number"></input>
-		</p>
+ for ($x=0; $x<$arrlength-1; $x++){
+         if($number>=$array[$x]){
+             $temp=$x;
+             $x=$arrlength;
+         }
+     }
 
 
-		<p>
-			<span>convert to number system: </span>
-			<select name="convert">
-				<option selected value="1">2</option>
-				<option value="2">10</option>
-			</select>
-		</p>
 
-		<p>
-			<input type="submit" name="submit" value="Convert!"></input>
-		</p>
+ $inputNumber = $_POST['number'];
+ $inputName = $_POST['name'];
+ $inputSystem = $_POST['convert'];
 
+ if(!isset($inputNumber)){
+     echo "<script>alert('Zahl eingeben');</script>";
+ }
+ else{
+if($inputName==null){
+     echo "<script>alert('Name eingeben');</script>";
+ }
+ else{
 
-		<?php
-			if (isset($_POST['submit'])) {
+     if(!isset($_POST['gender'])){
+         echo "<script>alert('Geschlecht festlegen');</script>";
+     }
+     else{
+         $inputGender = $_POST['gender'];
+         if($inputGender=="m"){
+             echo "Lieber ";
+         }
+         else{
+             echo "Liebe ";
+         }
+         echo "$inputName, die Umwandlung der Zahl $inputNumber [decimal] ins Zielsystem [$inputSystem] lautet: ";
+  
 
-				if(!isset($_POST['name']) || !isset($_POST['number'])) {
-					echo "<script>alert('Please check your values!');</script>";
-					return;
-				}
+        while ($temp<$arrlength){
+            if($number-$array[$temp] >= 0){
+                $number = $number-$array[$temp];
+                $temp = $temp+1;
+                echo "1";
+            }
+            else{
+                $temp = $temp+1;
+                echo "0";
+            }
+        }
+    }
+}
+}
 
-				$number=$_POST['number'];
-				$convert=$_POST['convert'];
-				$result="0";
-
-				while ($number<0) {
-					if($number%2==0) {
-						$result=$result."0";
-					}
-					else {
-						$result=$result."1";
-					}
-					$result=$result/2;
-				}
-
-				echo "<p>";
-				echo "result: $result";	
-				echo "</p>";
-
-			}
-		?>
-	</form>
-</body>
-</html>
+?>

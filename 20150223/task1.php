@@ -1,30 +1,56 @@
-<!DOCTYPE HTML>
 <html>
-<head>
-    <title>task1</title>
-</head>
-<body>
-    
-    <?php
-        $wordfile=fopen("words.txt", "r") or die ("Unable to open file!");
-        // echo fread($wordfile, filesize("words.txt"))."<br>";
-        // echo filesize("words.txt")."<br>";
+    <head>
+        <title>File Information</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <?php
+            $file = fopen("words.txt", "r") or die("Unable to open the file");
 
-        $countr=null;
+            while(!feof($file)){
+                $row = fgets($file, 1024);
+                $countr = strlen($row);
+                
+                echo "Word: $row";
+                echo "<br>Number of characters: ".$countr;
+                echo "<br><br><br>";
+                echo "-----------------";
+                echo "<br><br><br>";
+                
+                print_r(array_count_values(str_split("$row")));
+                
+                echo "<br><br><br>";
+                echo "-----------------";
+                echo "<br><br><br>";
+                
+                
+                $array2 = array_count_values(str_split("$row"));
+                ksort($array2);
+                
+                foreach($array2 as $x => $x_value) {
+                    echo "$x = "."$x_value";
+                    echo "<br>";
+                }
+                
+                echo "<br><br><br>";
+                echo "-----------------";
+                echo "<br><br><br>";
+                
+                $array3 = array_count_values(str_split("$row"));
+                asort($array3);
+                
+                foreach($array3 as $y => $y_value) {
+                    echo "$y = "."$y_value";
+                    echo "<br>";
+                }
+                
+                echo "<br><br><br>";
+                echo "-----------------";
+                echo "<br><br><br>";
 
-        while(!feof($wordfile)) {
-            $row=fgets($wordfile, 1024);
-            $result=array_count_values(str_split("$row"));
-            print_r($result);
-            for ($i=0; $i < $row; $i++) { 
-                echo "<p>";
-                echo "$row[i]: "
-                echo "</p>";
             }
-            echo "<br>----------------------<br>";
-        }
-        
-        fclose($wordfile);
-    ?>
-</body>
+            fclose($file);
+
+        ?>
+    </body>
 </html>
