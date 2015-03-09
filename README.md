@@ -1,2 +1,2 @@
 # TINF
-**POS projects @Spengergasse 2015**
+**TINF projects @Spengergasse 2015**
