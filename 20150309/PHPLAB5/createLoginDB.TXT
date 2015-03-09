@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS loginTab;
+CREATE TABLE loginTab
+(
+  	id          SERIAL    	NOT NULL,
+	user			VARCHAR(32)  NOT NULL,
+	passwd		VARCHAR(32)  NOT NULL,
+   PRIMARY KEY ( id )
+);
+
+INSERT INTO loginTab (id,user,passwd)
+VALUES (1,"test","test");
+
+INSERT INTO loginTab (id,user,passwd)
+VALUES (2,"Gates","Bill");
