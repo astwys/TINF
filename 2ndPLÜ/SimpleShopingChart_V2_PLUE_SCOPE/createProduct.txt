@@ -1,0 +1,21 @@
+DROP TABLE IF EXISTS product;
+CREATE TABLE product
+(
+  	id          SERIAL    	NOT NULL,
+	name		VARCHAR(255)  NOT NULL,
+	code		VARCHAR(255)  NOT NULL,
+	image		text NOT NULL, 
+	price 		double(10,2) NOT NULL,
+	PRIMARY KEY ( id )
+);
+
+INSERT INTO product (id, name, code, image, price)
+VALUES (1, "3D Camera", "3DcAM01", "product-images/camera.jpg", 1500.00);
+
+INSERT INTO product (id, name, code, image, price)
+VALUES (2, "External Hard Drive", "USB02", "product-images/external-hard-drive.jpg", 800.00);
+
+INSERT INTO product (id, name, code, image, price) 
+VALUES (3, "Wrist Watch", "wristWear03", "product-images/watch.jpg", 300.00);
+
+

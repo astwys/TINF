@@ -1,0 +1,26 @@
+/* CSS Datei - Formatierung für CSS_BspXXX
+	 . (class) 	Klassen-Selektor
+	 						unabhängig von TAG
+	 # (ID)			ID-Selektor
+	 						jede ID nur einmal in Dokument - eindeutige Indentifizierung 
+	 						dient auch als Zugriff von Skriptsprachen
+***************************************************************************/
+body{
+		color:#000000;
+		background:#ffff88;
+}
+
+.rot{
+		color:#ff0000;
+		text-size:20px;
+}
+
+.blau{
+		color:#0000ff;
+		text-size:20px;
+}
+
+.gruen{
+		color:#00ff00;
+		text-size:20px;
+}
