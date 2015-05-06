@@ -6,11 +6,11 @@
  $arrlength = count($array);
 
  for ($x=0; $x<$arrlength-1; $x++){
-         if($number>=$array[$x]){
-             $temp=$x;
-             $x=$arrlength;
-         }
-     }
+    if($number>=$array[$x]){
+        $temp=$x;
+        $x=$arrlength;
+    }
+}
 
 
 
@@ -21,7 +21,7 @@
  if(!isset($inputNumber)){
      echo "<script>alert('Zahl eingeben');</script>";
  }
- else{
+else{
 if($inputName==null){
      echo "<script>alert('Name eingeben');</script>";
  }
